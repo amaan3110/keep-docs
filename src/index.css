@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Gilroy";
+  src: url(./assets/gilroy/Gilroy-Regular.ttf);
+}
+
+*{
+  font-family: "Gilroy";
+}
+
+::selection{
+  color: rgba(127, 255, 212, 0.419);
+}
