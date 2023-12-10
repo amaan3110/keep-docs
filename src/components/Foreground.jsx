@@ -26,9 +26,10 @@ const Foreground = () => {
         querySnapshot.forEach((doc) => {
           const { text, textSize } = doc.data();
           newData.push({
+            id: doc.id,
             desc: text,
             filesize: textSize,
-            close: false,
+            close: true,
           });
         });
 
